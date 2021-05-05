@@ -1,0 +1,22 @@
+h1 {
+    color: brown;
+}
+
+* {
+    border: solid;
+}
+.header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+.picture{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
